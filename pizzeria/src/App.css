@@ -1,0 +1,331 @@
+.home{
+  margin: 10px;
+  border:1px solid orange;
+}
+.container {
+  width: 100%;
+  max-width: 100%;
+  height: 50px;
+  background-color: black;
+  border-radius: 3.5px;
+  
+}
+
+.title{
+  padding: 15px;
+  border-right: 1px solid whitesmoke;
+  color: rgb(179, 175, 175);
+}
+.pizzalogo {
+  margin-left: 15px;
+  height: 50px;
+  width: 50px;
+}
+.orderpizza{
+  padding: 15px;
+  color: rgb(179, 175, 175);
+}
+.buildpizza{
+  padding: 15px;
+  color: rgb(179, 175, 175);
+}
+.button {
+  float: right;
+  background-color: orange;
+  color: white;
+  padding: 3px;
+  margin: 5px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: whitesmoke;
+}
+
+.storyparagraph{
+  padding-top: 7px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.ingredients{
+  margin-top: 50px;
+  height: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+    border: 1px solid orange;
+
+}
+.ingredientsimg{
+  height: 300px;
+  width:500px;
+  object-fit: cover;
+
+}
+.ingredientsdivimg{
+  float: left;
+  height: 300px;
+  width: 45%;
+
+}
+
+.ingredientsdivpara{
+  float: right;
+  height: 300px;
+  width: 45%;
+
+}
+.ourchefs{
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+    border: 1px solid orange;
+
+}
+.ourchefsimg{
+  margin-right: 10;
+  height: 300px;
+  width:500px;
+  object-fit: cover;
+
+}
+.ourchefsdivimg{
+  margin-right: 30px;
+  float: right;
+  height: 300px;
+  width: 45%;
+
+}
+
+.ourchefsdivpara{
+  float: left;
+  height: 300px;
+  width: 45%;
+
+}
+.delivery{
+  height: 300px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+    border: 1px solid orange;
+}
+.deliveryimg{
+  height: 300px;
+  width:500px;
+  object-fit: cover;
+
+}
+.deliverydivimg{
+  float: left;
+  height: 300px;
+  width: 45%;
+
+}
+
+.deliverydivpara{
+  padding-top: 140px;
+  padding-bottom: 140px;
+  float: right;
+  height: 300px;
+  width: 45%;
+
+}
+
+.copyrights{
+  font-style: italic;
+  color: orange;
+  margin-top: 5px;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+.orderpizzaitem{
+   width: 550px;
+  height: 370px;
+  border: 1.5px solid black;
+  background-color: white;
+  border-radius: 5px;
+  
+}
+.itemname{
+
+  padding-left: 10px;
+  width: 30px;
+}
+.veg{
+  
+   padding-left: 10px;
+   margin-top: 60px;
+   margin-left: 20px;
+   color: green;
+   background-color: green;
+   border: 1px solid black;
+   width: 20px;
+   height: 20px;
+
+}
+.nonveg{
+ 
+  
+   padding-left: 10px;
+   margin-top: 60px;
+   margin-left: 20px;
+   color: red;
+   background-color: red;
+   border: 1px solid black;
+   width: 20px;
+   height: 20px;
+
+
+}
+.price{
+ 
+  margin-left: 10px;
+  margin-top: 70px;
+  
+}
+.itemdesc{
+  margin-left: 30px;
+}
+
+.column1{
+  float: left;
+  width: 40px;
+  margin-left: 10px;
+}
+.column2{
+  /* background-color: greenyellow; */
+  float: left;
+  width:250px;
+  margin-left: 80px;
+}
+.column3{
+  background-color: yellow;
+  width: 100px;
+  display: flex;
+  margin-top: 10px;
+  margin-left: 250px;
+  margin-right: 10px;
+  }
+
+  .desctitles{
+    font-weight: bold;
+  }
+  .orderimage{
+    height: 100px;
+    width: 100px;
+  }
+
+  .ordercartbutton {
+  
+  background-color: orange;
+  color: white;
+  
+    margin-top: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: whitesmoke;
+}
+.ordercartbutton:hover {
+  
+  background-color:black;
+  transition: ease 1s;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: whitesmoke;
+}
+
+.table{
+  margin-left: 50px;
+  
+}
+.td:hover{
+ 
+  cursor: pointer;
+}
+
+.tr{
+  width:50%;
+  display: block;
+  float: left;
+}
+.buildpizzaimg{
+  margin-left:15px;
+  margin-top: 15px;
+  height: 60px;
+  width: 60px;
+}
+
+.buildtable{
+  margin-top: 25px;
+}
+
+.builditem{
+  
+  width: 800px;
+}
+.buildtr{
+  height: 100px;
+ 
+}
+.buildtr:nth-child(even){
+  height: 100px;
+  background-color: #f2f2f2;
+ 
+}
+.tdimage{
+  border: 1px solid black;
+  width:200px;
+  padding-left: 40px;
+}
+
+.tdtitle{
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: bold;
+    border: 1px solid black;
+  width: 400px;
+}
+
+.tdcheckbox{
+  padding-left: 40px;
+  padding-top: 20px;
+    border: 1px solid black;
+  width: 200px;
+}
+
+.label{
+  color: orange;
+  padding-left: 15px;
+}
+/* 
+.checkboxspan{
+  background-color: red;
+} */
+.total{
+  margin-left: 232px;
+  border: 1px solid black;
+  width: 800px;
+}
+
+.paragraph{
+  margin-top: 20px;
+}
+.buildButton{
+  color:orange;
+  background-color: black;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+.totalsum{
+  margin-left: 10px;
+  margin-top: 10px;
+  color: darkblue;
+}
+.addcheckbox:checked::after{
+  color: blueviolet;
+  background-color: chartreuse;
+}
+
